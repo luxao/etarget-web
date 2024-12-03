@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:600|Grape+Nuts:400");
+
+@font-face {
+  font-family: "Segoe UI Variable Static Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HoloSymMDL2.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI Variable Static Display-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Segoe-UI-Variable-Static-Display.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI Variable Static Display-Semilight";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SegoeUIVariableStaticDisplaySemilight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI Variable Static Text-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Segoe-UI-Variable-Static-Text.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI Variable Static Text-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HoloSymMDL2.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI Variable Static Small-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/SegoeUIVariableStaticTextBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI Variable Static Small-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SegoeUIVariableStaticDisplay.ttf") format("truetype");
+}
+
+/* clearfix and settings */
+
+/* border-box */
+
+*  {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* clearfix */
+
+.group:before,
+.group:after {
+  content: ' ';
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

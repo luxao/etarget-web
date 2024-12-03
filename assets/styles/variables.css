@@ -1,0 +1,25 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #e5e5e5;
+    --light-gray: #efeef6;
+    --light-gray-secondary: #edebf4;
+    --red: #ff002f;
+    --darker-red: #ff042a;
+    --indigo: #4f006d;
+    --darker-indigo: #3c0053;
+    --purple: #47005f;
+    --darker-purple: #360047;
+    --light-purple: #9506f7;
+    --light-purple-secondary: #9d06ff;
+
+    --font-family-grape_nuts: "Grape Nuts", Helvetica;
+    --font-family-roboto: "Roboto", Helvetica;
+    --font-family-segoe_ui_variable_static_display-bold: "Segoe UI Variable Static Display-Bold", Helvetica;
+    --font-family-segoe_ui_variable_static_display-regular: "Segoe UI Variable Static Display-Regular", Helvetica;
+    --font-family-segoe_ui_variable_static_display-semilight: "Segoe UI Variable Static Display-Semilight", Helvetica;
+    --font-family-segoe_ui_variable_static_small-bold: "Segoe UI Variable Static Small-Bold", Helvetica;
+    --font-family-segoe_ui_variable_static_small-regular: "Segoe UI Variable Static Small-Regular", Helvetica;
+    --font-family-segoe_ui_variable_static_text-bold: "Segoe UI Variable Static Text-Bold", Helvetica;
+    --font-family-segoe_ui_variable_static_text-regular: "Segoe UI Variable Static Text-Regular", Helvetica;
+}

@@ -1,0 +1,154 @@
+
+body {
+    position: relative;
+}
+/* HEADER PAGE */
+
+
+.header {
+    width: 100%;
+    height: 9.875rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.header-wrapper {
+    max-width: 75rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 8.375rem;
+    flex-shrink: 0;
+}
+
+
+.etarget-logo {
+    width: 15rem;
+    height: auto;
+}
+
+
+.navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.3125rem;
+}
+
+.navigation-menu > li {
+    list-style: none;
+}
+.navigation-menu > li > a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font-family-segoe_ui_variable_static_small-regular);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.navigation-menu .link .active {
+    color: var(--darker-red);
+}
+
+.navigation-menu .link.btn {
+    background-color: var(--darker-red);
+    height: 2rem;
+    line-height: 2.3rem;
+    padding: 0.3rem 1.4rem;
+    border-radius: 2rem;
+}
+
+.navigation-menu .link.btn > a {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+}
+
+
+/* MAIN CONTENT */
+.container {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+}
+
+.section.section-1 {
+    width: 100%;
+    height: 64.5rem;
+    background-image: url("../images/main_img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section.section-2 {
+    width: 100%;
+    height: 31.25rem;
+    background-color: var(--white);
+}
+
+.section.section-3 {
+    width: 100%;
+    height: 36.875rem;
+    background-image: url("../images/section3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.section.section-4 {
+    width: 100%;
+    height: 64.5rem;
+    background-color: var(--white);
+}
+
+.section.section-5 {
+    width: 100%;
+    height: 24.375rem;
+}
+
+.section > .img-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 100%;
+    height: 24.375rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img.img-1 {
+    background-image: url("../images/marcel_1.png");
+}
+.img.img-2 {
+    background-image: url("../images/hristo.png");
+}
+.img.img-3 {
+    background-image: url("../images/marcel_2.png");
+}
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 18.75rem;
+    position: absolute;
+    background-color: var(--purple);
+}
