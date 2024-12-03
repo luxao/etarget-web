@@ -2,6 +2,21 @@
 body {
     position: relative;
 }
+
+.btn {
+    color: var(--white);
+    font-size: 1.25rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background-color: var(--darker-red);
+    border-radius: 2.5rem;
+    padding: .8125rem 2.0625rem;
+}
 /* HEADER PAGE */
 
 
@@ -50,21 +65,34 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
+    transition: all .5s ease;
+}
+
+.navigation-menu .link > a:hover {
+    color: var(--darker-red);
 }
 
 .navigation-menu .link .active {
     color: var(--darker-red);
 }
 
-.navigation-menu .link.btn {
+
+
+.navigation-menu .link.link-btn {
     background-color: var(--darker-red);
     height: 2rem;
     line-height: 2.3rem;
     padding: 0.3rem 1.4rem;
+    cursor: pointer;
     border-radius: 2rem;
+    transition: transform .5s ease;
 }
 
-.navigation-menu .link.btn > a {
+.navigation-menu .link.link-btn:hover {
+    transform: scale(1.1);
+}
+
+.navigation-menu .link.link-btn > a {
     font-weight: 700;
     color: var(--white);
     font-size: 1.2rem;
@@ -84,37 +112,114 @@ body {
     height: auto;
 }
 
+/* SECTION 1 */
 .section.section-1 {
     width: 100%;
     height: 64.5rem;
-    background-image: url("../images/main_img.png");
-    background-position: center;
+    background-image: url("../img/main_img.png");
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.section.section-1 > .lines {
+    height: 100%;
+}
+
+
+.section.section.section-1 .text-wrapper {
+    width: 60rem;
+    height: auto;
+    position: absolute;
+    top: 15.5rem;
+    left: 21.25rem;
+}
+
+.text-wrapper > h1.main-heading {
+    color: var(--white);
+    font-size: 4.875rem;
+    text-transform: uppercase;
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+}
+
+.text-wrapper .red-line {
+    width: 62%;
+    height: auto;
+}
+
+
+
+.text-wrapper .secondary-heading {
+    color: var(--darker-red);
+    font-family: "Grape Nuts";
+    font-size: 3.4375rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-wrapper .text-bold {
+    margin-top: 3.4375rem;
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.375rem;
+}
+
+.text-wrapper .text-regular {
+    margin-top: 2.375rem;
+    font-family: var(--font-family-segoe_ui_variable_static_display-regular);
+    font-weight: 350;
+    color: var(--white);
+    font-size: 1.25rem;
+}
+
+
+
+.text-wrapper .btn.btn-primary {
+    width: 4.75rem;
+    height: 1.5rem;
+    margin-top: 3.4375rem;
+    transition: transform .5s ease;
+}
+
+.text-wrapper .btn.btn-primary:hover {
+    transform: scale(1.1);
+}
+
+/* SECTION 2 */
 .section.section-2 {
     width: 100%;
     height: 31.25rem;
     background-color: var(--white);
 }
 
+/* SECTION 3 */
 .section.section-3 {
     width: 100%;
     height: 36.875rem;
-    background-image: url("../images/section3.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: var(--light-gray);
+    position: relative;
 }
 
+.section.section-3 .lines-1,
+.section.section-3 .lines-2 {
+    height: 100%;
+}
 
+.section.section-3 .lines-2 {
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+/* SECTION 4 */
 .section.section-4 {
     width: 100%;
     height: 64.5rem;
     background-color: var(--white);
 }
 
+/* SECTION 5 */
 .section.section-5 {
     width: 100%;
     height: 24.375rem;
@@ -126,7 +231,7 @@ body {
 }
 
 .img {
-    width: 100%;
+    width: 38.75rem;
     height: 24.375rem;
     background-size: cover;
     background-position: center;
@@ -134,13 +239,14 @@ body {
 }
 
 .img.img-1 {
-    background-image: url("../images/marcel_1.png");
+    background-image: url("../img/marcel_2.jpg");
 }
 .img.img-2 {
-    background-image: url("../images/hristo.png");
+    background-image: url("../img/hristo.jpeg");
 }
 .img.img-3 {
-    background-image: url("../images/marcel_2.png");
+    background-image: url("../img/marcel_1.jpg");
+    background-position: top;
 }
 
 
