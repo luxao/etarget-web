@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etarget</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/etarget-icon.png">
-    <link rel="stylesheet" href="assets/styles/globals.css">
-    <link rel="stylesheet" href="assets/styles/variables.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Etarget.eu</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/etarget-icon.png">
+    <link rel="stylesheet" href="./assets/styles/globals.css">
+    <link rel="stylesheet" href="./assets/styles/variables.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/pages/home.css">
 </head>
 <body>
+    <!-- TODO: MAKE REUSABLE COMPONENT VIA HEADER.PHP -->
     <header class="header">
         <div class="header-wrapper">
-            <img src="assets/img/etarget-logo.png" alt="logo" title="logo" class="etarget-logo">
+            <img src="./assets/img/etarget-logo.png" alt="logo" title="logo" class="etarget-logo">
         
             <ul class="navigation-menu">
                 <li class="link"><a class="active" href="#">Home</a></li>
@@ -26,15 +28,16 @@
       
         </div>
     </header>
-    
+    <!-- --------------------------------------------------------------- -->
+
     <main class="container">
-        <section class="section section-1">
+        <section class="section home-section-1">
             <img class="lines" src="./assets/img/lines.svg" alt="lines">
             <div class="text-wrapper">
                 <h1 class="main-heading">impact</h1>
                 <h1 class="main-heading">over noisee</h1>
 
-                <img src="assets/img/palicka.svg" alt="red-line" class="red-line">
+                <img src="./assets/img/palicka.svg" alt="red-line" class="red-line">
                 <h2 class="secondary-heading">Focus on what reallly matters to brands</h2>
 
                 <div class="text-bold">Develop and optimize all your campaigns for attention, engagement,<br> and conversions, using our data-driven approach and solutions.</div>
@@ -43,15 +46,91 @@
             </div>
         </section>
 
-        <section class="section section-2"></section>
-        <section class="section section-3">
+        <section class="section home-section-2">
+            <div class="section-wrap">
+                <div class="section-text-wrap">
+                    <h2 class="heading">
+                        TAKE ADVANTAGE OF the white space in the display advertising funnel
+                    </h2>
+                    <div class="text-bold">
+                        We offer a unique range of programmatic and display advertising services, helping our clients take advantage of opportunities within the display funnel for eye-opening results and measurable brand benefits.
+                    </div>
+                    <div class="text-regular">
+                        By industry measurement standards, what happens between displaying a viewable impression and a click-through is a mystery. This doesn’t have to be the case. Our solutions transform the unknown into opportunities to significantly increase measurable impact of your display campaigns. Explore our core offerings below.
+                    </div>
+                    <div class="btn btn-primary">
+                        What we do
+                    </div>
+                </div>
+                <div class="section-animation-img">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section home-section-3">
             <img class="lines-1" src="./assets/img/lines.svg" alt="lines">
             <img class="lines-2" src="./assets/img/lines.svg" alt="lines">
+
+            <div class="arcticles-wrap">
+                <div class="article-container">
+                    <h1 class="article-heading">Ad</h1>
+                    <h1 class="article-heading">format</h1>
+                    <h1 class="article-heading">adaptation</h1>
+                    <h3 class="article-heading-secondary">Adapting any banner to the reality of online user behaviours.</h3>
+                    <div class="article-text">We don’t underestimate the difference fine- tuning of your ad formats can make. We adapt campaign ad formats to the ever- evolving realities of the attention-starved display advertising environment, while preserving the campaign’s creative, messaging and brand strategy. Differences in performance are incomparable to the costs.</div>
+                    <div class="btn btn-secondary"><img src="./assets/img/arrow-right.svg" alt="arrow-icon"> Learn more</div>
+                </div>
+
+                <div class="article-container">
+                    <h1 class="article-heading">Attention -</h1>
+                    <h1 class="article-heading">optimized</h1>
+                    <h1 class="article-heading">campaign media</h1>
+                    <h3 class="article-heading-secondary">Analyzing traffic and placement data for successful optimization.</h3>
+                    <div class="article-text">We offer attention-focused traffic and placement optimization for your brand campaigns, utilizing analytic models and learnings from thousands of campaign deployments globally to maximize potential of your every campaign.</div>
+                    <div class="btn btn-secondary"><img src="./assets/img/arrow-right.svg" alt="arrow-icon"> Learn more</div>
+                </div>
+
+                <div class="article-container">
+                    <h1 class="article-heading">Advanced</h1>
+                    <h1 class="article-heading">measurement</h1>
+                    <h1 class="article-heading">& insights</h1>
+                    <h3 class="article-heading-secondary">Generating reliable attention and user behaviour metrics.</h3>
+                    <div class="article-text">We provide unique set of reliable attention and user behaviour measurements, on par with the highest industry standards so brands can get a clear data input for optimization of their display campaigns.</div>
+                    <div class="btn btn-secondary"><img src="./assets/img/arrow-right.svg" alt="arrow-icon"> Learn more</div>
+                </div>
+            </div>
         </section>
         
-        <section class="section section-4"></section>
+        <section class="section home-section-4">
+            <div class="section-clients-wrapper">
+                <div class="clients-group-img"></div>
+                <div class="clients-text-wrap">
+                    <h2 class="clients-heading">Our clients</h2>
+                    
+                    <div class="text-card">
+                        <div class="client-name-img c-img-1"></div>
+                        <div class="text-quote">“I've been working with Etarget for many years. I really appreciate the reliability, flexibility, and innovation they bring to the table in their approach to programmatic buying.”</div>
+                        <h5 class="head-of-company">Head of GroupM Operations</h5>
+                    </div>
     
-        <section class="section section-5">
+                    <div class="text-card">
+                        <div class="client-name-img c-img-2">dentsu</div>
+                        <div class="text-quote">“Dentsu has worked with Etarget for over 10 years. They have been a reliable partner for us, contributing to the increased efficiency of our media plans.”</div>
+                        <h5 class="head-of-company">Chief Digital Officer & Brand Lead at Dentsu</h5>
+                    </div>
+                </div>
+                <div class="since-wrap">
+                    <h3 class="since-heading">Since 2002,</h3>
+                    <div class="since-text">we've been empowering top industry stakeholders and brands to understand and significantly increase the impact of their display advertising. </div>
+                
+                </div>
+                <div class="btn btn-primary">Learn more about us!</div>
+            </div>
+
+        </section>
+    
+        <section class="section home-section-5">
             <div class="img-wrapper">
                 <div class="img img-1"></div>
                 <div class="img img-2"></div>
@@ -61,6 +140,19 @@
     
     </main>
 
-    <footer class="footer"></footer>
+    <!-- TODO: MAKE REUSABLE COMPONENT LIKE FOOTER.PHP -->
+    <footer class="footer">
+        <img src="./assets/img/etarget-logo.png" alt="etarget-logo" class="footer-etarget-logo">
+        <div class="etarget-company-name">Etarget se</div>
+        <div class="social-icons">
+            <a class="icon icon-linkedin" href="#"></a>
+            <a class="icon icon-facebook" href="#"></a>
+            <a class="icon icon-instagram" href="#"></a>
+        </div>
+        <div class="hello-etarget">hello@etarget.eu</div>
+        <img src="./assets/img/big-line.svg" alt="big-line" class="big-line">
+        <div class="copy-right">© 2024 ETARGET SE | <a class="footer-link" href="#">Privacy policy</a>  | <a href="#" class="footer-link">Cookies</a> | <img src="./assets/img/iab.png" alt="iab" class="iab-img"></div>
+    </footer>
+    <!-- --------------------------------------------- -->
 </body>
 </html>
