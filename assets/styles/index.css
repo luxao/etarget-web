@@ -213,7 +213,8 @@ body {
     line-height: 2.1875rem;
     position: absolute;
     bottom: 2rem;
-    left: 35%;
+    /* left: 35%; */
+    left: calc(50% - 240px);
     display: flex;
     align-items: center;
 }
@@ -250,6 +251,8 @@ body {
     background-image: url("../img/menu-icon.png");
 }
 
+
+
 @media only screen and (max-width: 1185px){
     .header {
         height: auto;
@@ -273,6 +276,8 @@ body {
     }
 }
 
+
+
 @media only screen and (max-width: 825px){
     .header .header-wrapper {
         width: 30rem;
@@ -283,4 +288,34 @@ body {
     .header .header-wrapper {
         width: 25rem;
     }
+
+    .footer .social-icons {
+        right: unset;
+        top: 16.525rem;
+        left: 10%;
+    }
+    .footer {
+        height: 26rem;
+    }
+
+    .footer .big-line {
+        left: 9%;
+    }
+
+    .footer .hello-etarget {
+        right: unset;
+        top: 12rem;
+        left: 10%;
+    }
+
+    .copy-right .footer-link, 
+    .footer .copy-right {
+        font-size: .75rem;
+    }
+
+    .footer .copy-right {
+        left: calc(50% - 10.1875rem);
+    }
+
+    
 }
