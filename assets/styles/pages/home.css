@@ -389,13 +389,13 @@
 
 /* TODO: */
 
-@media only screen and (max-width: 1460px) {
+@media screen and (max-width: 1460px) {
     .section.home-section-3 .arcticles-wrap {
         gap: 6.5rem;
     }
 }
 
-@media only screen and (max-width: 1360px) {
+@media screen and (max-width: 1360px) {
     .section.section.home-section-1 .text-wrapper {
         left: 14rem;
         width: 40.6875rem;
@@ -423,7 +423,7 @@
 
 }
 
-@media only screen and (max-width: 1185px) {
+@media screen and (max-width: 1185px) {
 
     .section.home-section-4 {
         height: 100rem;
@@ -478,7 +478,7 @@
 
 
 
-@media only screen and (max-width: 1000px){
+@media screen and (max-width: 1000px){
     .section.section.home-section-1 .text-wrapper {
         left: 5rem;
         width: 40.6875rem;
@@ -519,7 +519,7 @@
     }
 }
 
-@media only screen and (max-width: 800px){
+@media screen and (max-width: 800px){
     .section.home-section-2 .section-wrap .section-text-wrap {
         width: 35.25rem;
         height: 30.75rem;
@@ -544,7 +544,7 @@
  
 }
 
-@media only screen and (max-width: 760px){
+@media screen and (max-width: 760px){
     .section.section.home-section-1 .text-wrapper {
         left: 3rem;
         width: 36rem;
@@ -554,7 +554,7 @@
     }
 }
 
-@media only screen and (max-width: 660px){
+@media screen and (max-width: 660px){
     .section.section.home-section-1 .text-wrapper {
         left: 5rem;
         width: 19.0625rem;
@@ -661,7 +661,7 @@
     }
 }
 
-@media only screen and (max-width: 520px){ 
+@media screen and (max-width: 520px){ 
     .section-text-wrap .text-bold, .section-text-wrap .text-regular, 
     .section.home-section-2 .section-wrap .section-text-wrap {
         width: 25.25rem;
@@ -689,7 +689,7 @@
     }
 }
 
-@media only screen and (max-width: 460px){ 
+@media screen and (max-width: 460px){ 
     .section.section.home-section-2 .section-text-wrap .mobile-text-bold,
     .section.section.home-section-2 .section-text-wrap .mobile-text-regular,
     .section-text-wrap .text-bold, .section-text-wrap .text-regular, 
@@ -761,7 +761,7 @@
   
 }
 
-@media only screen and (max-width: 370px){ 
+@media screen and (max-width: 370px){ 
     .section.home-section-3 {
         height: 95rem;
     }
