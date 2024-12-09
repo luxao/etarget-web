@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/styles/variables.css">
     <link rel="stylesheet" href="./assets/styles/index.css">
     <link rel="stylesheet" href="./assets/styles/pages/home.css">
+    <script type="text/javascript" src="https://sk.search.etargetnet.com/embed/player/jquery.egqp.min.js"></script>
 </head>
 <body>
     <!-- TODO: MAKE REUSABLE COMPONENT VIA HEADER.PHP -->
@@ -17,7 +18,9 @@
         <div class="header-wrapper">
             <img src="./assets/img/etarget-logo.png" alt="logo" title="logo" class="etarget-logo">
             
-            <div class="menu-icon"></div>
+            <div class="menu-icon" id="menu-icon" onclick="openMenu()"></div>
+            <div class="x-icon" id="x-icon" onclick="closeMenu()"></div>
+
             <ul class="navigation-menu">
                 <li class="link"><a class="active" href="#">Home</a></li>
                 <li class="link"><a  href="#">What we do</a></li>
