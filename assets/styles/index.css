@@ -278,15 +278,19 @@ body {
 
 
 
-@media  screen and (max-width: 825px){
+@media  screen and (max-width: 760px){
     .header .header-wrapper {
         width: 30rem;
+    }
+    .header .header-wrapper .menu-icon {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
 @media  screen and (max-width: 580px){
     .header .header-wrapper {
-        width: 25rem;
+        width: 20rem;
     }
 
     .footer .social-icons {
@@ -319,3 +323,4 @@ body {
 
     
 }
+ 
