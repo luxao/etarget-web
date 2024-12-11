@@ -63,7 +63,7 @@
 
 
 .text-wrapper .btn.btn-primary {
-    width: 4.75rem;
+    width: 5.75rem;
     height: 1.5rem;
     margin-top: 3.4375rem;
     transition: transform .5s ease;
@@ -141,7 +141,7 @@
 }
 
 .section-text-wrap .btn.btn-primary {
-    width: 6.625rem;
+    width: 7.625rem;
     height: 1.5rem;
     transition: all .5s ease;
 }
@@ -395,7 +395,6 @@
     background-position: top;
     transform: rotateY(180deg);
 }
-
 
 /* -------------------------------------------------------------------------------------- */
 /* MEDIA QUERY */

@@ -6,7 +6,6 @@ body {
 .btn {
     color: var(--white);
     font-size: 1.25rem;
-    font-family: 'Roboto';
     font-weight: 600;
     font-style: normal;
     cursor: pointer;
@@ -16,6 +15,7 @@ body {
     background-color: var(--darker-red);
     border-radius: 2.5rem;
     padding: .8125rem 2.0625rem;
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
 }
 
 .btn.btn-secondary {
@@ -240,7 +240,6 @@ body {
     
 }
 
-.header .header-wrapper .x-icon,
 .header .header-wrapper .menu-icon {
     display: none;
     width: 3.125rem;
@@ -250,17 +249,6 @@ body {
     background-position: center;
     background-image: url("../img/menu-icon.png");
 }
-.header .header-wrapper .x-icon {
-    display: none;
-    background-image: url("../../assets/img/xko.png");
-}
-
-/* .header .header-wrapper .navigation-menu.show-menu {
-    display: flex !important;
-    position: absolute;
-    top: 20%;
-    left: calc(50% - 195px);
-} */
 
 
 
@@ -292,7 +280,6 @@ body {
     .header .header-wrapper {
         width: 30rem;
     }
-    .header .header-wrapper .x-icon,
     .header .header-wrapper .menu-icon {
         width: 2.5rem;
         height: 2.5rem;
@@ -382,10 +369,15 @@ body {
 }
 
 
-@media screen and (min-width: 1024px) and (max-width:1200px) {
+@media screen and (min-width: 1024px) and (max-width:1280px) {
     .header .header-wrapper {
         width: 50rem;
         margin: 0;
+        gap: 2rem;
+    }
+
+    .section.home-section-1 .lines {
+        display: none;
     }
 
 }
