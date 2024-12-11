@@ -2,7 +2,7 @@
 function openMenu() {
     e$("#menu-icon").hide()
     e$("#x-icon").show()
-    // e$(".navigation-menu").addClass("show-menu")
+    e$(".mobile-menu").addClass("show-menu")
 }
 
 //TODO: CLOSE MENU
@@ -11,4 +11,5 @@ function closeMenu() {
     //CODE HERE
     e$("#menu-icon").show()
     e$("#x-icon").hide()
+    e$(".mobile-menu").removeClass("show-menu")
 }
