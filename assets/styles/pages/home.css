@@ -63,8 +63,9 @@
 
 
 .text-wrapper .btn.btn-primary {
-    width: 5.75rem;
-    height: 1.5rem;
+    width: 9.75rem;
+    height: 3rem;
+    line-height: normal;
     margin-top: 3.4375rem;
     transition: transform .5s ease;
 }
@@ -141,8 +142,9 @@
 }
 
 .section-text-wrap .btn.btn-primary {
-    width: 7.625rem;
-    height: 1.5rem;
+    width: 11.625rem;
+    height: 3rem;
+    text-align: center;
     transition: all .5s ease;
 }
 
@@ -229,8 +231,8 @@
 }
 
 .article-container .btn.btn-secondary {
-    width: 7.625rem;
-    height: .8125rem;
+    width: 9.625rem;
+    height: 3rem;
     margin-top: 2.875rem;
     transition: all .5s ease;
     display: flex;
@@ -565,7 +567,7 @@
 
     /* SECTION 4 */
      .section.home-section-4 {
-        height: 72rem;
+        height: 80rem;
     }
     .section.home-section-4 .section-clients-wrapper .since-wrap {
         display: none;

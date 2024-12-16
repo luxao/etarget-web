@@ -60,7 +60,7 @@ body {
 }
 
 
-.navigation-menu {
+.header .header-wrapper .navigation-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,11 +91,11 @@ body {
 }
 
 .header .mobile-menu .navigation-mobile-menu > li,
-.navigation-menu > li {
+.header .header-wrapper .navigation-menu > li {
     list-style: none;
 }
 .header .mobile-menu .navigation-mobile-menu > li > a,
-.navigation-menu > li > a {
+.header .header-wrapper .navigation-menu > li > a {
     text-decoration: none;
     color: var(--white);
     font-family: var(--font-family-segoe_ui_variable_static_small-regular);
@@ -112,18 +112,17 @@ body {
 }
 
 .header .mobile-menu .navigation-mobile-menu .link > a:hover,
-.navigation-menu .link > a:hover {
+.header .header-wrapper .navigation-menu .link > a:hover {
     color: var(--darker-red);
 }
 
 .header .mobile-menu .navigation-mobile-menu .link .active,
-.navigation-menu .link .active {
+.header .header-wrapper .navigation-menu .link .active {
     color: var(--darker-red);
 }
 
 
-.header .mobile-menu .navigation-mobile-menu .link.link-btn,
-.navigation-menu .link.link-btn {
+.header .mobile-menu .navigation-mobile-menu .link.link-btn {
     background-color: var(--darker-red);
     height: 2rem;
     line-height: 2.3rem;
@@ -133,28 +132,37 @@ body {
     transition: transform .5s ease;
 }
 
+.header .header-wrapper .navigation-menu .link.link-btn {
+    background-color: var(--darker-red);
+    height: 3rem;
+    line-height: 2.6rem;
+    padding: 0.3rem 1.4rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: transform .5s ease;
+}
+
 .header .mobile-menu .navigation-mobile-menu .link.link-btn {
     height: 4rem;
-    /* padding: 0.5rem 2.4rem; */
     border-radius: 3rem;
 }
 
-.header .mobile-menu .navigation-mobile-menu .link.link-btn:hover,
-.navigation-menu .link.link-btn:hover {
+
+.header .header-wrapper .navigation-menu .link.link-btn:hover {
     transform: scale(1.1);
 }
 
 .header .mobile-menu .navigation-mobile-menu .link.link-btn > a,
-.navigation-menu .link.link-btn > a {
+.header .header-wrapper .navigation-menu .link.link-btn > a {
     font-weight: 700;
     color: var(--white);
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-family: var(--font-family-segoe_ui_variable_static_display-bold);
 }
 
 .header .mobile-menu .navigation-mobile-menu .link.link-btn > a {
     font-size: 1.9rem;
-    line-height: 3.4375rem;
+    line-height: 3rem;
 }
 
 
