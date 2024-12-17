@@ -18,7 +18,8 @@
     height: auto;
     position: absolute;
     top: 15.5rem;
-    left: 21.25rem;
+    left: 20.25rem;
+    
 }
 
 .section.services-section-1 .text-wrapper  > h2.main-heading-secondary {
@@ -85,3 +86,311 @@
 }
 
 /* SECTION 2 */
+
+.section.services-section-2  {
+    width: 100%;
+    height: 65rem;
+    position: relative;
+    /* height: auto; */
+}
+
+.section.services-section-2 .main-heading {
+    width: 64.4375rem;
+    color: var(--purple);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 2.1875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 20.25rem;
+    top: 5%;
+}
+
+.section.services-section-2 .articles-wrap {
+    max-width: 69.0625rem;
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 20.25rem;
+    gap: 5.4375rem;
+    align-self: stretch;
+}
+
+
+.section.services-section-2 .articles-wrap .article-container {
+    display: flex;
+    flex-direction: column;
+    width: 19.4375rem;
+    align-items: center;
+    gap: 2.6875rem;
+}
+
+.section.services-section-2 .articles-wrap .article-container .article-heading {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6856rem;
+}
+
+.section.services-section-2 .articles-wrap .article-container .article-text {
+    color: var(--darker-indigo);
+    font-size: .9375rem;
+    font-family: var(--font-family-segoe_ui_variable_static_display-regular);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
+.section.services-section-2 .articles-wrap .article-container .btn.article-btn {
+    background-color: var(--darker-red);
+    color: var(--white);
+    font-size: 1.05rem;
+    padding: .9375rem 1.3625rem;
+    border-radius: 2.5rem;
+}
+
+.section.services-section-2 .articles-wrap .article-container .article-img {
+    border-radius: .5rem;
+    height: 14.375rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section.services-section-2 .articles-wrap .article-container .article-img.img-1 {
+    background-image: url("../../img/services-sec-2-img-1.jpeg");
+}
+
+.section.services-section-2 .articles-wrap .article-container .article-img.img-2 {
+    background-image: url("../../img/services-sec-2-img-2.jpeg");
+}
+
+.section.services-section-2 .articles-wrap .article-container .article-img.img-3 {
+    background-image: url("../../img/services-sec-2-img-3.jpeg");
+}
+
+/* SECTION 3 */
+.section.services-section-3 {
+    width: 100%;
+    height: 25rem;
+    background-color: var(--light-gray);
+    position: relative;
+}
+
+.section.services-section-3 .lines-1,
+.section.services-section-3 .lines-2 {
+    height: 100%;
+}
+
+.section.services-section-3 .lines-1 {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+
+.section.services-section-3 .lines-2 {
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.section.services-section-3 .text-container {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20.25rem;
+    top: 15%;
+}
+
+.section.services-section-3 .text-container .main-heading {
+    color: var(--purple);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 2.1875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section.services-section-3 .text-container .second-heading {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    margin-top: 1rem;
+}
+
+.section.services-section-3 .text-container .article-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.375rem;
+    margin-top: 2rem;
+}
+
+.section.services-section-3 .text-container .article-container .article-text {
+    width: 19.375rem;
+    height: 7.5rem;
+    color: var(--darker-indigo);
+    font-family: var(--font-family-segoe_ui_variable_static_display-regular);
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+}
+
+.section.services-section-3 .text-container .article-container .article-text > span {
+    font-weight: 700;
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+}
+
+.section.services-section-3 .text-container .article-container .article-text:last-child {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5125rem;
+}
+
+/* SECTION 4 */
+
+.section.services-section-4 {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+}
+
+
+.section.services-section-4 .text-container {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20.25rem;
+    top: 15%;
+}
+
+.section.services-section-4 .text-container .main-heading {
+    color: var(--purple);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 2.1875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section.services-section-4 .text-container .second-heading {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    margin-top: 1rem;
+}
+
+.section.services-section-4 .text-container .article-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.375rem;
+    margin-top: 2rem;
+}
+
+.section.services-section-4 .text-container .article-container .article-text {
+    width: 19.375rem;
+    height: 7.5rem;
+    color: var(--darker-indigo);
+    font-family: var(--font-family-segoe_ui_variable_static_display-regular);
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+}
+
+
+.section.services-section-4 .text-container .article-container .article-text:last-child {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5125rem;
+}
+
+/* SECTION 5 */
+
+.section.services-section-5 {
+    width: 100%;
+    height: 30rem;
+    background-color: var(--light-gray);
+    position: relative;
+}
+
+.section.services-section-5 .lines-1,
+.section.services-section-5 .lines-2 {
+    height: 100%;
+}
+
+.section.services-section-5 .lines-1 {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+
+.section.services-section-5 .lines-2 {
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.section.services-section-5 .text-container {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20.25rem;
+    top: 15%;
+}
+
+.section.services-section-5 .text-container .main-heading {
+    color: var(--purple);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 2.1875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section.services-section-5 .text-container .second-heading {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    margin-top: 1rem;
+}
+
+.section.services-section-5 .text-container .article-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.375rem;
+    margin-top: 2rem;
+}
+
+.section.services-section-5 .text-container .article-container .article-text > div,
+.section.services-section-5 .text-container .article-container .article-text {
+    width: 19.375rem;
+    height: 12.5rem;
+    color: var(--darker-indigo);
+    font-family: var(--font-family-segoe_ui_variable_static_display-regular);
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+}
+
+.section.services-section-5 .text-container .article-container .article-text > span {
+    color: var(--light-purple-secondary);
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5125rem;
+}
+
+.section.services-section-5 .text-container .article-container .article-text:nth-child(2) {
+    margin-top: .625rem;
+}
