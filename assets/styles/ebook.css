@@ -202,8 +202,11 @@ body  {
     outline: none;
     border: none;
     transition: all .5s ease;
+    text-decoration: none;
+    font-family: var(--font-family-segoe_ui_variable_static_display-bold);
     color: var(--white);
     cursor: pointer;
+    text-align: center;
     font-size: 1.5rem;
     background-color: var(--light-purple-secondary);
 }
