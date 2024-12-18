@@ -394,3 +394,19 @@
 .section.services-section-5 .text-container .article-container .article-text:nth-child(2) {
     margin-top: .625rem;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 320px) and (max-width: 1280px) {
+
+    .section.services-section-1 .lines {
+        display: none;
+    }
+
+    .section.services-section-3 .lines-1,
+    .section.services-section-3 .lines-2,
+    .section.services-section-5 .lines-1,
+    .section.services-section-5 .lines-2 {
+        display: none;
+    }
+}
